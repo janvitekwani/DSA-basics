@@ -1,0 +1,18 @@
+map interface       // so in this map interface we can sort the key value 
+    |      \    \      
+    |       \     \
+    |         \     \
+  linked      sorted  hashmap(keys are unordered in hashmap)
+                |
+                |
+                |
+                treemap
+* in linked order insertion is gurantee , and sorted map gurantee sorted order  
+
+ import java.util.*;
+
+ public class Main{
+
+ static void hashmapmethods(){
+    //syntax
+    Map<String,Integer>
