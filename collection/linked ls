@@ -1,0 +1,6 @@
+LinkedList<String> names = new LinkedList<>();
+names.add("chaand");
+names.add("jai");
+System.out.println(names); // this will print all the values
+names.add(2 ,"john");   // index and the element u want to add
+names.remove(0);
