@@ -1,0 +1,3 @@
+//it is extends class vector ( vector which is the legacy class in java)
+// vector is similar to arraylist difference is vector methods are synchronized , whereas arraylist methods are not
+
