@@ -1,0 +1,22 @@
+collection is the part of java that have collection of object
+
+//Arraylist (you can google collection in java wiki)
+ArrayList <String> listname = new ArrayList();
+we use listname.add("janvi") // to add the value in the list
+
+// iterating 
+  for(String temp: listname){
+    System.out.println(listname.get(3));
+
+// you can also know that do element is removed or not by using this
+System.out.println(listNames.remove("chaand") 
+   output: this will return true if element exist in list
+          else it will return false so we can also use it this way
+
+//you can set it at particular index 
+  listNames.set(0,"steve")
+// to know the index of the particular operation
+   listNames.indexOf("jake") 
+      o/p : if element is not their  it will return -1
+
+
