@@ -20,3 +20,57 @@ System.out.println(listNames.remove("chaand")
       o/p : if element is not their  it will return -1
 
 
+// AUTOBOXING AND UNBOXING in java collections
+
+// when we did this then remember string is a class
+ArrayList <String> listname = new ArrayList(); 
+
+// if u put the int here then id will error because int is the primitive datatype
+ArrayList <int > listname = new ArrayList();  // this is WRONG
+ArrayList<Integer> listname =new ArrayList(); // this is WRITE bcoz here Integer is the class
+listname.add(25); //autoboxing
+System.out.println(listname.get(0)); // auto unboxing 
+
+
+Q. how to create your own wrapper class?
+
+// we can't create directly we have to do boxing and then unboxing // this will not happen automatically as
+// it used to be for the primitive datatype 
+class IntWrapper{
+  public int num;
+
+  public int getNum(){
+    return num;
+  }
+
+  public void setNum(int num){
+     this.num =num;
+  }
+
+ public IntWrapper(int num){
+    this.num = num;
+}
+}
+
+public class Main{   // (understanding the concept of boxing and unbxing)
+  public static void main(String [] args){
+    
+ArrayList<IntWrapper> numberList = new ArrayList<>(); // IntWrapper is wrapper defined by us
+   //  numberList.add(25); // this is WRONG is will give error 
+       numberList .add(new IntWrapper(65)); // this is boxing 
+     System.out.println(numberLList.get(0)); // this is not giving error now but this will give output as
+    /
+/ object rather than value so to get value we use the getter method predefined
+  System.out.println(numberList.get(0).getNum()); // o/p:65 // this is boxing now
+
+
+#pros & cons of arraylist
+1) fast and easy to access any element from any location
+
+1)operations are slow and tends to use more memory while operating
+
+
+
+
+
+
