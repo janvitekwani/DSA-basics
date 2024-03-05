@@ -1,0 +1,26 @@
+Boolean      empty() tests if this stack is empty
+E            peek () look at the object at the top of this stack without 
+              removing it from the stack
+E            pop() removes the object at the top of this stack and returns
+            that object as the value of this function
+E            push (e items )onto the top of this stack
+int          search (object o) returns the 1-based position where an object 
+             is on this stack
+
+
+Stack <Integer> no = new Stack<>();
+no.push(25);
+no.push(50);
+no.push(2);
+System.out.println(no.search(2));// used for searching the elements 
+
+
+
+* there are few methods whcih are return in bold in stack and remaining are the 
+   vectors as it is the base class for the stack
+
+
+
+            
+              
+              
