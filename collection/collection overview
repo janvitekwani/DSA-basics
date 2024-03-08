@@ -40,6 +40,7 @@ u will find this library in java.util package
    synchronused and other non synchronised.
 
 ## ways for traversing the element of collection
+**********ITERATION ******** 
 
                                          iterable  for-each(1)            method  another way
              forword                           |                         foreach() -(5)  
@@ -50,5 +51,14 @@ u will find this library in java.util package
                                   \
                                    \
                                   vector ( has it's own methods for iteration )
+
+
+ ****  MAP *******
+with every key has a value associated , his is how we organise the data in key value pair.
+
                                         enumeration 
                                        applied to stack also as followed by vector
+
+
+
+
