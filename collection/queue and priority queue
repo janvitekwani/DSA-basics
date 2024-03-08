@@ -1,0 +1,81 @@
+     deletion<--|__ | __ | __ | __ |  <-- addition     
+                  ^              ^
+                  |    QUEUE     | 
+                 front          rear
+
+we delete from front and addition from rear
+
+Queue <Integer> queue = new LinkedList<>();
+  queue.offer(12);
+  queue.offer(24);
+queue.offer(36);
+
+System.out.println(queue);  // this will print all the queue i.e 12,24,36
+System.out.println(queue.poll());  // this give output 12
+System.out.println(queue); // 24,36  , 12 is deleted
+System.out.println(queue.peek());
+
+
+*************** what is priority queue? **********************
+. this can use all the methods of the queue.
+// this is min heap  , this will return min element
+PriorityQueue<Integer> pq = new PriorityQueue<>();  
+
+Queue<Integer> pq = new PriorityQueue<>();
+
+pq.offer(40);
+pq.offer(12);
+pq.offer(24);
+pq.offer(36);
+
+System.out.println(pq);  // output 12 , 36,24,40
+pq.poll(); 
+System.out.println(pq); //output 24,36,40
+
+System.out.println(pq.peek()); // output 24 
+
+
+// but we can reverse the order for highest priority
+
+Queue<Integer> pq = new PriorityQueue<>(Comparator.reverseOrder());
+
+System.out.println(pq.peek());  // this is will give max element 40
+
+
+
+*************************** DEQUEUE *****************************************
+
+this is called deck not dequeue  
+// dequeue is from where u can we can insert and delete from on both the ends
+
+ArrayDeque<Integer> adq = new ArrayDeque<>(); // this is the class
+
+adq.offer(23);
+adq.offerFirst(12);
+adq.offerLast(45);
+
+System.out.println(adq);
+
+peekFirst(); peekLast(); pollFirst(); pollLast();
+poll (); // poll from the first
+
+// so u can use like a queue 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
