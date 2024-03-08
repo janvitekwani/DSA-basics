@@ -1,0 +1,54 @@
+Q. What is collection?
+Any group of individual objects which are represented as a single unit is known 
+as collection of objects.
+
+framework is a set of classes and interfaces which provide a ready-made architecture
+collection framework is java API which provides architecture to store and manipulate
+group of objects            \
+                             \   
+                      classes and interfaces --> store and manipulate --> group of objects
+u will find this library in java.util package 
+
+### collection hierarchy 
+
+                               COLLECTION(methods it represents a group pf objects as single unit)
+                               /          \  
+                             /              \
+                           /                 \
+                      LIST                  SET
+       indexed collection[0,1,2...]        not indexed cell
+      order is preserved duplicates        order not pres. duplicates not
+      are allowed                          allowed
+              /    |     \                                 /          \
+             /     VECTOR  \                              /            \
+            /      legacy    \                         HASHSET          SORTEDSET
+\          /     additional feature                  same as set           means element 
+          /        dynamic array  \                 implementation class    will be sort in these
+         /          thread safe     \                     |                          \
+        |              |             |                 LINKED HASHSET                 TREESet
+        |            STACK (lifo)    |                order will be preserved           sorted, asc num , string
+        |                            |
+        ARRAYLIST           LINKED LIST
+     dynamic array            doubley linked list
+    new array created when       in thid mode will add 
+    order gets filled up          only when needed
+       not thread safe
+
+
+
+* being thread safe means two method of vector cannot use it simantenously and that makes it
+   synchronused and other non synchronised.
+
+## ways for traversing the element of collection
+
+                                         iterable  for-each(1)            method  another way
+             forword                           |                         foreach() -(5)  
+            iterator ---has a object--->  collection
+                |
+          (listiterator)  ---> list (but only applied to list)
+              backward           \
+                                  \
+                                   \
+                                  vector ( has it's own methods for iteration )
+                                        enumeration 
+                                       applied to stack also as followed by vector
