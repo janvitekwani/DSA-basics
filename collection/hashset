@@ -1,0 +1,45 @@
+Set<Integer> set = new Hashset<>();
+set.add(32);
+set.add(2);
+set.add(54);
+set.add(21);
+set.add(65);
+
+System.out.println(set);   // output 2, 54, 21,65,32  this will put in some random order
+// this will add all the unique element 
+// so hashset put all the like a hash internally , and hash are stored in memory
+set.remove(54);  
+set.isEmpty();
+set.size();
+set.clear();
+
+Set<Integer> set = new LinkedHashset<>();  // this will implement the property of 
+                                         // linked list
+// but this give orderset
+
+Set<Integer> set = new Treeset<>(); // this will implement in sorted form 
+                                   // and it will in the form of binary search tree
+
+**************** how to make the set of the custom class *******************
+  public class student{
+
+  String name;
+   int  rollno;
+   public Student(String name , int rollno) {
+     this.name =name;
+      this.rollNo =rolllNo;
+   }
+}
+
+Set <Student> studentSet = new HashSet<>();
+  studentSet.add(new Student ("anuj" , 2));
+studentSet.add(new Student ("Ramesh" , 4));
+studentSet.add(new Student ("Shivam" , 3));
+studentSet.add(new Student ("anuj" , 2));  // this will print both the anuj while 
+   // being set it still cannot differentiate each other , so in java new means 
+    // two different object therefore
+
+
+// so we can use the equals method behind the scene to differentiate
+
+  
