@@ -13,6 +13,8 @@ no.push(25);
 no.push(50);
 no.push(2);
 System.out.println(no.search(2));// used for searching the elements 
+System.out.println(animals.peek()); // this will take out the peek element
+no.pop();
 
 
 
