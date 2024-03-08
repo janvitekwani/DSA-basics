@@ -21,6 +21,9 @@ Set<Integer> set = new Treeset<>(); // this will implement in sorted form
                                    // and it will in the form of binary search tree
 
 **************** how to make the set of the custom class *******************
+## NON PRIMITIVE SET 
+
+
   public class student{
 
   String name;
@@ -31,13 +34,16 @@ Set<Integer> set = new Treeset<>(); // this will implement in sorted form
    }
 }
 
-Set <Student> studentSet = new HashSet<>();
+Set <Student> studentSet = new HashSet<>();   // we are putting in set to make element unique
   studentSet.add(new Student ("anuj" , 2));
 studentSet.add(new Student ("Ramesh" , 4));
 studentSet.add(new Student ("Shivam" , 3));
 studentSet.add(new Student ("anuj" , 2));  // this will print both the anuj while 
-   // being set it still cannot differentiate each other , so in java new means 
-    // two different object therefore
+// THIS STUDENT AUNJ WITH SAME ROLL NO APPEARS TWO TIMES IN THE LIST, SO IT WILL NOT BE SET  this is because 
+// due to new keyword they are consider set as the same object 
+
+if u want to implement the 
+  
 
 
 // so we can use the equals method behind the scene to differentiate
