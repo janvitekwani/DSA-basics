@@ -18,6 +18,8 @@ System.out.println(queue.peek());
 
 *************** what is priority queue? **********************
 . this can use all the methods of the queue.
+. in priority queue we can add duplicates of the elements 
+
 // this is min heap  , this will return min element
 PriorityQueue<Integer> pq = new PriorityQueue<>();  
 
