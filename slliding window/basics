@@ -1,1 +1,25 @@
+******************* patterns to solve the questions of sliding windows *****************************
+# u have a given a problem and in that problem u take a particular that is called as sliding windows
+
+# 4 key patterns are their in it 
+1) fixed size window 
+2) sometimes u donot know the size of the particular window
+3) two pointer approach 
+4) u need a external data structure (this is called optimized sliding windows)
+
+Q. what happens in fixed size window pattern 
+A.   let's take a pattern
+             A[] ={ 1,3,-1,-3,5,3,6,7 } k =3; (means u need three size window)
+                    '''''' =3
+                      ''''''' =3       { so everytime u will put this logic in this these
+                          ''''''=5        kind of question }
+                              '''''=5
+
+
+
+
+
+
+
+
 
