@@ -15,9 +15,34 @@ A.   let's take a pattern
                           ''''''=5        kind of question }
                               '''''=5
 
+for fixed size window - minimum size subarray 
+knows the size of the window - two sum using while loop is (two pointer approach)
+minimum window substring - u need a external data structure (this is called optimized sliding windows)
+Minimum Size Subarray Sum -  sometimes u donot know the size of the particular window
 
-Q. 
+  int i=0, j=0;
+         int sum =0;
+         int len = Integer.MAX_VALUE;
+         while(j<nums.length) 
+           {  //we will include the current sum 
+              sum =sum + nums[j];
 
+              // mere pass ek window ka sum ready h
+               while(sum>=target){
+                 // minimise ->sum me se decrease karo , len bhi update
+               //    krelna ,i/start ko aage badhana padega
+
+                 len = Math.min(len,j-i+1);
+                 sum = sum - nums[i];
+                 i++;
+               }
+                 j++;
+           }
+
+           if(len == Integer.MAX_VALUE)
+              return 0;
+     
+       return len;
 
 
 
