@@ -56,3 +56,17 @@ public class Hashing {
 
    }
 }
+
+function of traversing array of key create is keyset 
+   for(int key:map.keySet())
+
+increment the value of the key by using the key then will do this 
+   if(map.containsKey(nums[i]))
+        { 
+         // we are increment the value of the key by one 
+             map.put(nums[i],map.get(nums[i])+1);   
+
+        }  
+        else{
+             map.put(nums[i],1);
+        }
