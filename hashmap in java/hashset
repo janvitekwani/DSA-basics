@@ -56,3 +56,5 @@ public class Hashing {
    }
 }
 
+
+ set.retainAll(set2);  retainAll functions Set interface is used to retain only the elements that are also present in another collection. 
