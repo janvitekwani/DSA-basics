@@ -45,6 +45,23 @@ Minimum Size Subarray Sum -  sometimes u donot know the size of the particular w
        return len;
 
 
+**********************************************************************************************************************************
+problem -> arr:2,3,5,2,9,7,1
+             # =3  // this the given size of subarray
+
+okay! now we will see how brute force can be optimised to 
+  1) repeative work (if u are doing repeative work then it means it can be furthur optimised)
+
+
+
+basic approach of sliding window question 
+   1) u must be given an array or string 
+
+           arr , string + asked to find   + largest max/min
+                            subarray or substring
+
+
+#****************** Max sum sub-array of size K ********************
 
 
 
