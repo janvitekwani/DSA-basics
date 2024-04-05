@@ -1,6 +1,9 @@
 ******************* patterns to solve the questions of sliding windows *****************************
 # u have a given a problem and in that problem u take a particular that is called as sliding windows
 
+####### 
+ ....  in sliding window question we can't apply kadane's algorithm because in kadane's algorthim size is not fixed 
+
 # 4 key patterns are their in it 
 1) fixed size window 
 2) sometimes u donot know the size of the particular window
