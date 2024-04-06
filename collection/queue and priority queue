@@ -25,7 +25,7 @@ PriorityQueue<Integer> pq = new PriorityQueue<>();
 
 Queue<Integer> pq = new PriorityQueue<>();
 
-pq.offer(40);
+pq.offer(40);   pq.add(40) // this can throw exception if element is not added successfully
 pq.offer(12);
 pq.offer(24);
 pq.offer(36);
