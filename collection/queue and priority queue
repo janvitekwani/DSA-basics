@@ -67,7 +67,15 @@ poll (); // poll from the first
 
 
 
+// DEQUEUE
 
+   Deque<Integer> deque = new LinkedList<>();
+How to Create a Deque in Java
+To create a Deque in Java, you can use the ArrayDeque or LinkedList class, which both implement
+the Deque interface. Here's how you can create a Deque using ArrayDeque:
+
+Deque<Integer> deque = new ArrayDeque<>();
+Deque<Integer> deque = new LinkedList<>();
 
 
 
