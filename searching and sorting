@@ -1,0 +1,21 @@
+# SEARCHING AND SORTING 
+
+ 1) linear searching 
+     O(n)
+
+2) Binary Search 
+    for using the binary search the element should in monotonic order , means either they should ascending or descending
+     basically array should be sorted 
+
+     O(logn)
+   for binary search we can calculate mid = start+(end - start) /2
+       in first iteration n/2 students 
+       in second iteration n/4 students 
+       in third iteration n/8 students 
+       and so on in last iteration their willl be n/2^k students  , and this n/^k when it's size =1
+         therefore n/2^k = 1 => n= 2^k => taking log both the side  log n = k 
+
+
+         
+     
+      
