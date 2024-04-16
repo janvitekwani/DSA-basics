@@ -1,0 +1,2 @@
+matrix[i].length will give you the length of the row at index i.
+matrix.length will give you the number of rows in the matrix, which is also the length of a column.
