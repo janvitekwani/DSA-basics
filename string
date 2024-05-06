@@ -1,0 +1,87 @@
+first taking input in char array 
+1) know the length of the string and take the input till that length using the for loop 
+2) u can use this code to take the input 
+   import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a string:");
+
+        // Read a line of input as a String
+        String input = scanner.nextLine();
+
+        // Convert the String to a char array
+        char[] charArray = input.toCharArray();  // this will convert the string to char array 
+
+        // Print the char array
+        System.out.println("You entered:");
+        for (char c : charArray) {
+            System.out.print(c + " ");
+        }
+    }
+}
+
+or u can also run the while loop and take the character untill the value donot get null 
+
+******************************************************************************************************************************************************88
+if u want to modify the same string 
+
+1)
+u can use the string builder because it is mutable string therefore u can use the append to add values in the string and at last the variable 
+we create using the stringbuilder is the object so therefore we need to convert that object into the string therefore in last we opened the 
+toString method 
+
+class Solution {
+    String modify(String S) {
+        StringBuilder sb = new StringBuilder();
+        
+        for (int i = 0; i < S.length(); i++) {
+            char c = S.charAt(i);
+            
+            if (c != ' ') {
+                sb.append(c);
+            }
+        } 
+        return sb.toString();
+    }
+}
+
+
+2)  when we want to create a string in java
+
+we will create an array using the given string and now will modify that array because the string are immutable in java, now at the last
+convert the char array into the string 
+
+class Solution
+{
+   
+    String modify(String S)
+    {
+     char [] charArray = s.toCharArray ();  
+     // toCharArray is the method used to convert the char array into string
+     int index =0;
+     
+     for(int i=0;i<charArray.length;i++)
+     {
+         if(charArray[i]!= ' ')
+         {
+             charArray[index++]= charArray =[i];  
+      // in this we are modifying the same array by adding the values in it by removing the space
+      
+         }
+     }
+     
+     
+     
+     
+     return new String (charArray , 0, index );
+     /*
+     value: This is the char array from which to construct the new String.
+offset: This is the starting index in the char array from which to begin constructing the new String.
+count: This is the number of characters from the char array to include in the new String.
+
+*/
+     
+    }
+}
