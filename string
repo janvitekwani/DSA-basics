@@ -85,3 +85,38 @@ count: This is the number of characters from the char array to include in the ne
      
     }
 }
+*************************************************************************************************************************************
+
+by this we can get the ascii value of the character 
+asciivalue = (int) ls.charAt(i);  // in this we typecasted char to integer 
+and string builder has inbuild reverse functions 
+1)Using ==: This operator checks if two string references point to the same memory location, i.e.,
+if they are the exact same object in memory. For example:
+ String str1 = "hello";
+String str2 = "hello";
+boolean result = str1 == str2; // true, because str1 and str2 point to the same "hello" object in memory
+
+2) Using equals(): This method compares the actual contents of the strings to determine if they are equal. For example:
+String str1 = "hello";
+String str2 = "hello";
+boolean result = str1.equals(str2); // true, because the contents of str1 and str2 are the same
+
+*********************************************************************************************************************************
+
+Q. string is palindrome or not ?
+
+alphabatic character is a to b and 0 to 9   and all rest are non alpha character , and u need to remeeber the ascii value of all 
+of these
+
+
+***********************************************************************************************************************************************
+in java string is a class commanly used for specific support in language 
+Yes, in Java, String is considered a data type. While it's not a primitive data type like int or boolean, 
+it's a class provided by the Java standard library (java.lang.String) that represents a sequence of characters.
+Strings in Java are used to store and manipulate text-based data.
+
+
+
+
+
+
