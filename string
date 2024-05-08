@@ -27,6 +27,16 @@ or u can also run the while loop and take the character untill the value donot g
 ******************************************************************************************************************************************************88
 if u want to modify the same string 
 
+u can also add the string
+ 
+  String ans="";
+        while(!stack.isEmpty()){
+            ans= stack.pop()+ans;
+        }
+
+        return ans;
+
+
 1)
 u can use the string builder because it is mutable string therefore u can use the append to add values in the string and at last the variable 
 we create using the stringbuilder is the object so therefore we need to convert that object into the string therefore in last we opened the 
