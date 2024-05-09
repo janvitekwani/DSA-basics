@@ -126,6 +126,18 @@ it's a class provided by the Java standard library (java.lang.String) that repre
 Strings in Java are used to store and manipulate text-based data.
 
 
+________________________________________________________________________________________________________________________________________
+QUESTION 1 : remove all adjacent duplicates in a string   (https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)
+
+  In this we cannot just traverse  the loop linearly and give result in one iterations because we have keep removing the duplicates until 
+ the duplicates occurs
+ for eg:  a b b a c a  (we removed bb)
+          a a c a ( now we can remove aa)
+          c a   ( this will be the answere)
+
+
+
+
 
 
 
