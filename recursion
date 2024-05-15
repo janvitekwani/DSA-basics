@@ -1,0 +1,11 @@
+void solve () 
+{
+  return;  // this function do not return anything therefore we will not return any value 
+  
+  }
+
+int solve ()
+{
+  return int value ; // by this u have to return with the integer value 
+  }
+
